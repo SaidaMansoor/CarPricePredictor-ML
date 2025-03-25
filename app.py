@@ -172,6 +172,6 @@ if st.button("Predict"):
     
     # Display prediction
     st.success("Prediction Successful!")
-    st.markdown(f"<h1>Predicted Price: ${predicted_price:.2f}</h1>", unsafe_allow_html=True)
+    st.markdown(f"<h1>Predicted Price: ₹{predicted_price:.2f}Lakhs</h1>", unsafe_allow_html=True)
 
     
