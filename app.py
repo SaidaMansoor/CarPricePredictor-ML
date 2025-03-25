@@ -11,8 +11,8 @@ def load_data():
 
 # Title and description of the app
 st.set_page_config(
-    page_title="My App", 
-    page_icon="🌍", 
+    page_title="CarPricePredictor", 
+    # page_icon="🌍", 
     layout="wide", 
     initial_sidebar_state="expanded")
 
