@@ -6,7 +6,7 @@ import joblib
 # Read the CSV file
 @st.cache_data
 def load_data():
-    df = pd.read_csv('Cars_24.csv')
+    df = pd.read_csv('car_data.csv')
     return df
 
 # Title and description of the app
