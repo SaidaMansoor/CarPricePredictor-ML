@@ -10,7 +10,8 @@ This project predicts the selling price of cars using a Random Forest Regressor.
   ## Dataset
 The dataset contains information about cars, including:
 - **Numerical features**: Year, km driven, mileage, engine size, max power, age.
-- **Categorical features**: Make, model, fuel type, transmission, ownership type.
+- **Binary Columns**: fuel type, transmission, ownership type
+- **Categorical features**: Make, model.
 - **Target variable**: Selling price.
 
 Sample data:
